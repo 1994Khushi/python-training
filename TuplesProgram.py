@@ -1,0 +1,17 @@
+t = (1,2,3,4)
+myList = [1,2,3,4]
+print(type(t))
+print(type(myList))
+print(len(t))
+print(t)
+t = ('one',4)
+print(t[0])
+print(t[-1])
+t = ('a','b','c','d','c')
+print(t.count('c'))
+print(t.index('a'))
+print(t.index('b'))
+print(t)
+print(myList)
+myList[0]= 'khushi'
+print(myList)
