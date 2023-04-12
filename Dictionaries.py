@@ -48,8 +48,8 @@ print(n)
 o= [1,2,2,33,4,4,11,22,3,3,2]
 print(set(o))
                                    #todo BOOLEANS
-p= 2>3
-print(p)
+P= 2>3
+print(P)
 q= 3<=2
 print(q)
 r = 3==2.0
@@ -61,3 +61,31 @@ print(t)
 u = [1,2,[3,4]]
 u1 =[1,2,{'k1':4}]
 print(u[2][0]>=u1[2]['k1'])
+v= 2==2
+print(v)
+w = 2==1
+print(w)
+x= 'Hello'=='bye'
+print(x)
+y = 'bye'=='Bye'
+print(y)
+z = '2'==2
+print(z)
+a1= 2.0 == 2
+print(a1)
+b1 = 3!=3
+print(b1)
+c1=  4!= 5
+print(c1)
+d1= 2>1
+print(d1)
+e = 1>2
+print(e)
+f= 1<2
+print(f)
+g=2<5
+print(g)
+h= 2>=2
+print(h)
+i = 4<=1
+print(i)
